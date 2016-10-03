@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DecoderActivity"
+    >
+
+  <com.dlazaro66.qrcodereaderview.QRCodeReaderView
+      android:id="@+id/qrdecoderview"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      />
+
+  <ImageView
+      android:id="@+id/red_line_image"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:src="@drawable/red_line"
+      />
+
+  <ImageButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/imageButton8"
+      android:src="@drawable/main_button"
+      android:padding="0dp"
+      android:nestedScrollingEnabled="false"
+      android:onClick="ScanToHomepage"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

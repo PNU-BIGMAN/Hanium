@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">플랜트 건설현장 배관자재관리 모바일 앱</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_after_scan">AfterScanActivity</string>
+
+</resources>
